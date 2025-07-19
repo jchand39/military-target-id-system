@@ -16,7 +16,7 @@ As a **Combat Systems Officer (CSO) 12X selectee**, I developed this project to 
 
 - Extract visual features (e.g., edge density, color histograms, contrast) from vehicle images.
 - Convert images into a tabular dataset for classical machine learning models.
-- Train interpretable models (Naive Bayes, K-Nearest Neighbors) to classify vehicles.
+- Train interpretable models (Naive Bayes, K-Nearest Neighbors, YOLO) to classify/Detect vehicles.
 - Simulate challenging conditions (blur, noise) to test robustness.
 - Emphasize explainability through feature analysis and confusion matrices.
 

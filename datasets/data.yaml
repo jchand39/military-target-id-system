@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 36
+names: ['A10', 'A400M', 'AG600', 'B1', 'B2', 'B52', 'Be200', 'C130', 'C17', 'C5', 'E2', 'EF2000', 'F117', 'F14', 'F15', 'F16', 'F18', 'F22', 'F35', 'F4', 'J20', 'JAS39', 'MQ9', 'Mig31', 'Mirage2000', 'RQ4', 'Rafale', 'SR71', 'Su57', 'Tu160', 'Tu95', 'U2', 'US2', 'V22', 'XB70', 'YF23']
+
+roboflow:
+  workspace: jchand39
+  project: military-aircraft-yl7jf-zyvvv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/jchand39/military-aircraft-yl7jf-zyvvv/dataset/1
