@@ -39,8 +39,8 @@ while True:
         break
 
     # Run inference
-    results_aircraft = aircraft_model.predict(source=frame, conf=0.5, verbose=False)
-    results_coco = coco_model.predict(source=frame, conf=0.5, verbose=False)
+    results_aircraft = aircraft_model.predict(source=frame, conf=0.25, verbose=False)
+    results_coco = coco_model.predict(source=frame, conf=0.25, verbose=False)
 
     # Draw military boxes on top, COCO boxes below
     frame = draw_results(frame, results_aircraft, label_prefix="[MIL] ", position="top")
